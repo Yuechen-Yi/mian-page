@@ -3,8 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <title>Yuechen-Yi的主页</title>
+        <style>
+            p.pos_fixed
+            {
+                position:fixed;
+                top:30px;
+                right:5px;
+            }
+        </style>
     </head>
     <body>
+        <p class="pos_fixed">你好啊你好啊你好啊</p>
         <div style="text-align:center;
                     padding:40px;
                     font-size:12px;">
@@ -36,21 +45,6 @@
         });
         </script>
             </button>
-        </div>
-        <div style="text-align:center;">
-            <button2 id="mybutton2" type="button" style="background-color:#8071cb;
-                            color:rgb(255, 255, 255);
-                            padding:10px 20px;
-                            border:none;">
-                还有这！
-                <script>
-                    const button2=document.grtElementById('mybutton2');
-                    button2.addEventListener('click',function()
-                {
-                    alert('这个也没啥用，为了测试两个按钮布局搞得');
-                });
-                </script>
-            </button2>
         </div>
         <div style="background-color:#f1f1f1;
         text-align:center;
